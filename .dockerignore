@@ -1,0 +1,126 @@
+# Docker ignore file for Crypto Airdrop Platform
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build (will be created during Docker build)
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.docker
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Git
+.git/
+.gitignore
+
+# Docker files
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Deployment scripts
+*deploy*.sh
+setup-*.sh
+health-check.sh
+ssl-*.sh
+
+# SSL certificates
+ssl/
+*.pem
+*.key
+*.crt
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Backup files
+*.backup
+*.bak
+*.sql
+
+# Documentation
+README*.md
+CHANGELOG.md
+LICENSE
+
+# Miscellaneous
+.nyc_output/
+.grunt/
+bower_components/
+.lock-wscript
+.wafpickle-N
+.node_repl_history
+.yarn-integrity
+.npm/
+.eslintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.cache/
+.parcel-cache/
+.next/
+out/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+
+# Testing
+.jest/
+test-results/
+coverage/
+
+# Replit specific
+.replit
+replit.nix
